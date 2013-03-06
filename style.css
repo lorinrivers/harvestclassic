@@ -89,6 +89,9 @@ h6 {
   text-decoration: none;
 }
 
+h2 a,
+h2 a:visited { color: #f53; }
+
 body,
 p,
 input,
@@ -647,6 +650,14 @@ blockquote {
   margin: 0 0 15px;
 }
 
+hr {
+	border: 0;
+	background: #999;
+	border-bottom: thin dashed #ccc; 
+	margin: 18px 0;
+	clear: both;
+}
+
 /* Column Classes
 ------------------------------------------------------------ */
 
@@ -764,8 +775,10 @@ h2.entry-title a { }
 
 h1.entry-title { color: #f53; }
 
+h2 a { color: #25a; }
+
 h2 a:hover {
-  color: #25a;
+  color: #f53;
   text-decoration: none;
 }
 
@@ -945,6 +958,7 @@ img.alignright {
 .wp-caption {
   padding: 5px 0 0 1px;
   text-align: center;
+  margin: 9px;
 }
 
 p.wp-caption-text {
